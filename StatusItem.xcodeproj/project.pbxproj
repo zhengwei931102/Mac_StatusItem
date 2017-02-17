@@ -13,6 +13,9 @@
 		844740CC1E568F9E0042EFD3 /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 844740CA1E568F9E0042EFD3 /* MainMenu.xib */; };
 		844740D71E568F9E0042EFD3 /* StatusItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844740D61E568F9E0042EFD3 /* StatusItemTests.m */; };
 		844740E21E568F9E0042EFD3 /* StatusItemUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 844740E11E568F9E0042EFD3 /* StatusItemUITests.m */; };
+		844740F01E56900F0042EFD3 /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = 844740EF1E56900F0042EFD3 /* 1.png */; };
+		8466F1A71E56A81500212E00 /* POPVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 8466F1A51E56A81500212E00 /* POPVC.m */; };
+		8466F1A81E56A81500212E00 /* POPVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8466F1A61E56A81500212E00 /* POPVC.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,6 +49,10 @@
 		844740DD1E568F9E0042EFD3 /* StatusItemUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StatusItemUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		844740E11E568F9E0042EFD3 /* StatusItemUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StatusItemUITests.m; sourceTree = "<group>"; };
 		844740E31E568F9E0042EFD3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		844740EF1E56900F0042EFD3 /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1.png; sourceTree = "<group>"; };
+		8466F1A41E56A81500212E00 /* POPVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = POPVC.h; sourceTree = "<group>"; };
+		8466F1A51E56A81500212E00 /* POPVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = POPVC.m; sourceTree = "<group>"; };
+		8466F1A61E56A81500212E00 /* POPVC.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = POPVC.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,12 +103,16 @@
 		844740C11E568F9E0042EFD3 /* StatusItem */ = {
 			isa = PBXGroup;
 			children = (
+				844740EF1E56900F0042EFD3 /* 1.png */,
 				844740C21E568F9E0042EFD3 /* AppDelegate.h */,
 				844740C31E568F9E0042EFD3 /* AppDelegate.m */,
 				844740C81E568F9E0042EFD3 /* Assets.xcassets */,
 				844740CA1E568F9E0042EFD3 /* MainMenu.xib */,
 				844740CD1E568F9E0042EFD3 /* Info.plist */,
 				844740C51E568F9E0042EFD3 /* Supporting Files */,
+				8466F1A41E56A81500212E00 /* POPVC.h */,
+				8466F1A51E56A81500212E00 /* POPVC.m */,
+				8466F1A61E56A81500212E00 /* POPVC.xib */,
 			);
 			path = StatusItem;
 			sourceTree = "<group>";
@@ -235,7 +246,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				844740F01E56900F0042EFD3 /* 1.png in Resources */,
 				844740C91E568F9E0042EFD3 /* Assets.xcassets in Resources */,
+				8466F1A81E56A81500212E00 /* POPVC.xib in Resources */,
 				844740CC1E568F9E0042EFD3 /* MainMenu.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -261,6 +274,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8466F1A71E56A81500212E00 /* POPVC.m in Sources */,
 				844740C71E568F9E0042EFD3 /* main.m in Sources */,
 				844740C41E568F9E0042EFD3 /* AppDelegate.m in Sources */,
 			);
@@ -483,6 +497,7 @@
 				844740E81E568F9E0042EFD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		844740E91E568F9E0042EFD3 /* Build configuration list for PBXNativeTarget "StatusItemTests" */ = {
 			isa = XCConfigurationList;
@@ -491,6 +506,7 @@
 				844740EB1E568F9E0042EFD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		844740EC1E568F9E0042EFD3 /* Build configuration list for PBXNativeTarget "StatusItemUITests" */ = {
 			isa = XCConfigurationList;
@@ -499,6 +515,7 @@
 				844740EE1E568F9E0042EFD3 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

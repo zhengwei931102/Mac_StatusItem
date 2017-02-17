@@ -9,7 +9,11 @@
 #import <Cocoa/Cocoa.h>
 
 @interface AppDelegate : NSObject <NSApplicationDelegate>
+@property (strong,nonatomic) NSStatusItem *item;
+@property (weak) IBOutlet NSMenu *statusMenu;
 
+@property (strong) NSPopover *popover;
+@property(nonatomic)BOOL  isShow;
 
 @end
 
